@@ -2,18 +2,17 @@
     margin: 0;
     padding: 0;
 }
-
-
 .cabeçalho{
-    background-color: rgb(99, 99, 100);
-    color: rgb(35, 13, 32);
+  
+    background-color: rgb(#000000);
+    color: rgb(160, 24, 149);
     display: flex;
     justify-content: space-around;
     padding: 12px 0;
 }
 .cabeçalho-da-página-inicial{
-    width: 10%;
-    height: 10%;
+    width: 24%;
+   
 }
 .cabeçalho-lista-item{
    display:inline-block;
@@ -24,4 +23,21 @@
     display: inline-block;
     margin: 0 16px;
     font-size: 24px;
+}
+.iluminismo-imagem{
+    width: 25%;
+}
+.Daltonismo{
+    background-image: linear-gradient( #424e61,#4ebfe9);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 0;   
+}
+.daltonismo-div-conteudo{
+    width: 35%;
+}
+.Daltonismo-titulo{
+    padding: 24px 0;
 }
